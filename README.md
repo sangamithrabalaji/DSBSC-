@@ -49,15 +49,15 @@ Model Waveform
 
 Program
 ```
-Am=2.14;
-fm=234;
-fs=23400;
+Am=6.47;
+fm=598;
+fs=59800;
 t=0:1/fs:2/fm;
 m=Am*cos(2*3.14*fm*t);
 subplot(3,1,1);
 plot(t,m);
-Ac=3.14;
-fc=2340;
+Ac=10.352;
+fc=5980;
 c=Ac*cos(2*3.14*fc*t);
 subplot(3,1,2);
 plot(t,c);
